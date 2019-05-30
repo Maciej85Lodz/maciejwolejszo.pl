@@ -278,6 +278,7 @@ a.active {
     background: url(../img/home-bg-2.jpg);
     background-size: cover;
     height: 90vh;
+    
 }
 
 .table-cell {
@@ -288,6 +289,7 @@ a.active {
 .disply-table {
     display: table;
     height: 100vh;
+    position: absolute;
 }
 
 
@@ -296,6 +298,7 @@ a.active {
 
 #about {
     padding: 100px 0;
+    position: auto;
 }
 
 .about-img-div img {
@@ -319,6 +322,7 @@ a.active {
 #experience {
     padding: 100px 0;
     background: #f3f3f3
+    position: absolute;
 }
 
 .experience-row {
