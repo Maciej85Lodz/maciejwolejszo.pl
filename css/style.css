@@ -621,14 +621,12 @@ a.active {
 }
 
 .footer {
-    position: fixed;
     display: block;
     bottom: 0;
     width: 100%;
     color: black;
     text-align: center;
 }
-
 
 /* contact
 ==================================================*/
