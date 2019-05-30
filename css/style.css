@@ -278,7 +278,7 @@ a.active {
     background: url(../img/home-bg-2.jpg);
     background-size: cover;
     height: 90vh;
-    possition: absolute;
+    possition: relative;
     
 }
 
