@@ -277,8 +277,7 @@ a.active {
 #home {
     background: url(../img/home-bg-2.jpg);
     background-size: cover;
-    height: 90vh;
-    position: relatabsoluteive;
+    height: 100vh;
 }
 
 .table-cell {
@@ -288,8 +287,7 @@ a.active {
 
 .disply-table {
     display: table;
-    height: 100vh;
-    position: absolute;
+    height: 150vh;
 }
 
 
@@ -298,7 +296,6 @@ a.active {
 
 #about {
     padding: 100px 0;
-    position: auto;
 }
 
 .about-img-div img {
@@ -321,8 +318,7 @@ a.active {
 
 #experience {
     padding: 100px 0;
-    background: #f3f3f3;
-    position: absolute;
+    background: #f3f3f3
 }
 
 .experience-row {
@@ -625,6 +621,7 @@ a.active {
 }
 
 .footer {
+    position: fixed;
     display: block;
     bottom: 0;
     width: 100%;
@@ -765,7 +762,7 @@ fieldset {
 /* Responsive media queries
 ==================================================*/
 
-@media (min-width: 991px) {
+@media (max-width: 991px) {
     .portfolio .categories-grid .categories ul li a {
         padding: 0 2px;
     }
@@ -781,13 +778,13 @@ fieldset {
 @media (max-width: 500px) {
     h1 {
         font-family: 'Playfair Display', serif;
-        font-size: 40px;
-        line-height: 40px;
+        font-size: 50px;
+        line-height: 50px;
     }
     #home,
     .disply-table {
-        height: 400px;
-        position: fixed;
+        height: 600px;
+        position: absolute;
     }
     .about-border {
         width: 265px;
