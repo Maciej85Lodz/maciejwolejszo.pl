@@ -138,7 +138,7 @@ body {
     animation: wink 1s ease-in-out infinite alternate
 }
 
-@media only screen and (min-width:300px) {
+@media only screen and (max-width:300px) {
     .preloader {
         height: 60px;
         width: 60px;
