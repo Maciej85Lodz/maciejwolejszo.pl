@@ -278,7 +278,7 @@ a.active {
     background: url(../img/home-bg-2.jpg);
     background-size: cover;
     height: 90vh;
-    position: absolute;
+    position: relatabsoluteive;
 }
 
 .table-cell {
@@ -782,12 +782,11 @@ fieldset {
         font-family: 'Playfair Display', serif;
         font-size: 40px;
         line-height: 40px;
-        position: absolute;
     }
     #home,
     .disply-table {
         height: 400px;
-        position: relative;
+        position: fixed;
     }
     .about-border {
         width: 265px;
