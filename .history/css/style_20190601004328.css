@@ -138,7 +138,7 @@ body {
     animation: wink 1s ease-in-out infinite alternate
 }
 
-@media only screen and (min-width:300px) {
+@media only screen and (min-width:768px) {
     .preloader {
         height: 60px;
         width: 60px;
@@ -278,7 +278,7 @@ a.active {
     background: url(../img/home-bg-2.jpg);
     background-size: cover;
     height: 90vh;
-    possition: relative;
+    position: relatabsoluteive;
 }
 
 .table-cell {
@@ -765,7 +765,7 @@ fieldset {
 /* Responsive media queries
 ==================================================*/
 
-@media (max-width: 991px) {
+@media (min-width: 991px) {
     .portfolio .categories-grid .categories ul li a {
         padding: 0 2px;
     }
@@ -781,13 +781,13 @@ fieldset {
 @media (max-width: 500px) {
     h1 {
         font-family: 'Playfair Display', serif;
-        font-size: 50px;
-        line-height: 50px;
+        font-size: 40px;
+        line-height: 40px;
     }
     #home,
     .disply-table {
-        height: 600px;
-        position: absolute;
+        height: 400px;
+        position: fixed;
     }
     .about-border {
         width: 265px;
