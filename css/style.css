@@ -786,7 +786,7 @@ fieldset {
     #home,
     .disply-table {
         height: 400px;
-        position: absolute;
+        position: fixed;
     }
     .about-border {
         width: 265px;
