@@ -156,6 +156,9 @@ body {
         margin-top: -18.75px;
         margin-left: -7.95px
     }
+    .container {
+        width: 90%;
+    }
 }
 
 @media only screen and (min-width:1200px) {
