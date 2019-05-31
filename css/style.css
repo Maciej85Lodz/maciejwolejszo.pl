@@ -788,6 +788,9 @@ fieldset {
         height: 400px;
         position: fixed;
     }
+    #home {
+        width: 60%;
+    }
     .about-border {
         width: 265px;
     }
