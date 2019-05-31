@@ -783,13 +783,12 @@ fieldset {
         font-size: 40px;
         line-height: 40px;
     }
-    #home,
+    #home {
+        width: 200%
+    }
     .disply-table {
         height: 400px;
-        position: fixed;
-    }
-    #home {
-        width: 150%;
+        position: absolute;
     }
     .about-border {
         width: 265px;
