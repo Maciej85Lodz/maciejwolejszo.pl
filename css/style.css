@@ -278,7 +278,7 @@ a.active {
     background: url(../img/home-bg-2.jpg);
     background-size: cover;
     height: 90vh;
-    position: relatabsoluteive;
+    position: absolute;
 }
 
 .table-cell {
@@ -784,9 +784,7 @@ fieldset {
         line-height: 40px;
         position: absolute;
     }
-    #home {
-        width: 200%
-    }
+    #home,
     .disply-table {
         height: 400px;
         position: relative;
