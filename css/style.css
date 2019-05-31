@@ -782,7 +782,7 @@ fieldset {
         font-family: 'Playfair Display', serif;
         font-size: 40px;
         line-height: 40px;
-        position: absolute;
+        position: relative;
     }
     #home,
     .disply-table {
