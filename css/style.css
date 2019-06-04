@@ -783,7 +783,7 @@ fieldset {
     #home,
     .disply-table {
         height: 600px;
-        position: absolute;
+        position: relative;
     }
     .about-border {
         width: 265px;
