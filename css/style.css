@@ -312,6 +312,22 @@ a.active {
     z-index: 1
 }
 
+/* technologies section
+==================================================*/
+
+.size-80 {
+    font-size: 80px;
+    line-height: 80px;
+    margin-left: 200px;
+}
+
+.beltsize {
+    height: 20px;
+    width: 120px;
+    font-size: 7px;
+    margin-left: 200px;
+}
+
 
 /* experience section
 ==================================================*/
