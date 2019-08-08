@@ -33,6 +33,7 @@ h1 {
     font-family: 'Playfair Display', serif;
     font-size: 80px;
     line-height: 70px;
+    top: 40px;
 }
 
 h4 {
@@ -43,6 +44,7 @@ h4 {
     color: #425BB5;
     margin-left: 40px;
     font-weight: 700;
+    top: 40;
 }
 
 h4:before {
@@ -301,9 +303,13 @@ a.active {
 }
 .line{
 text-align: center;
-font-size: 15px;
-line-height: 45px;
+font-size: 25px;
+line-height: 65px;
 
+}
+.line2{
+    font-size: 25px;
+    line-height: 45px;
 }
 .line:first-child{
     animation: anim 12s infinite;
@@ -681,7 +687,7 @@ line-height: 45px;
 
 .footer {
     display: block;
-    bottom: 0;
+    bottom: 10px;
     width: 100%;
     color: black;
     text-align: center;
